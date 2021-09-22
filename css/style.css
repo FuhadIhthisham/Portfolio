@@ -1651,7 +1651,6 @@ body .symp-btn {
   height: inherit;
   width: inherit;
   line-height: inherit;
-  vertical-align: middle;
   -webkit-transform: rotate(-45deg);
   -moz-transform: rotate(-45deg);
   -ms-transform: rotate(-45deg);
