@@ -94,23 +94,23 @@ $(function () {
           alerts = {
             success:
               "<div class='form-group' >\
-						<div class='alert alert-success alert-dismissible' role='alert'> \
-							<button type='button' class='close' data-dismiss='alert' aria-label='Close' > \
-								<i class='ion-ios-close-empty' ></i> \
-							</button> \
-							<strong>Message Sent!</strong> We'll be in touch as soon as possible\
-						</div>\
-					</div>",
+  					<div class='alert alert-success alert-dismissible' role='alert'> \
+  						<button type='button' class='close' data-dismiss='alert' aria-label='Close' > \
+  							<i class='ion-ios-close-empty' ></i> \
+  						</button> \
+  						<strong>Message Sent!</strong> We'll be in touch as soon as possible\
+  					</div>\
+  				</div>",
 
             error:
               "<div class='form-group' >\
-						<div class='alert alert-danger alert-dismissible' role='alert'> \
-							<button type='button' class='close' data-dismiss='alert' aria-label='Close' > \
-								<i class='ion-ios-close-empty' ></i> \
-							</button> \
-							<strong>Error!</strong> Sorry, an error occurred. Try again.\
-						</div>\
-					</div>",
+  					<div class='alert alert-danger alert-dismissible' role='alert'> \
+  						<button type='button' class='close' data-dismiss='alert' aria-label='Close' > \
+  							<i class='ion-ios-close-empty' ></i> \
+  						</button> \
+  						<strong>Error!</strong> Sorry, an error occurred. Try again.\
+  					</div>\
+  				</div>",
           };
 
         $.ajax({
@@ -128,15 +128,15 @@ $(function () {
               } else {
                 $("#contact-form-result").html(
                   "<div class='form-group' >\
-								<div class='alert alert-danger alert-dismissible' role='alert'> \
-									<button type='button' class='close' data-dismiss='alert' aria-label='Close' > \
-										<i class='ion-ios-close-empty' ></i> \
-									</button> \
-									" +
+  							<div class='alert alert-danger alert-dismissible' role='alert'> \
+  								<button type='button' class='close' data-dismiss='alert' aria-label='Close' > \
+  									<i class='ion-ios-close-empty' ></i> \
+  								</button> \
+  								" +
                     data["error"] +
                     "\
-								</div>\
-							</div>"
+  							</div>\
+  						</div>"
                 );
               }
             } else {
